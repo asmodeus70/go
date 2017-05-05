@@ -1,0 +1,31 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;chat&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../logging" />
+      <root url="file://$PROJECT_DIR$/../gokit" />
+      <root url="file://$PROJECT_DIR$/../exercises" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../code_examples" />
+      <root url="file://$PROJECT_DIR$/../neil" />
+      <root url="file://$PROJECT_DIR$/../goblueprints" />
+      <root url="file://$PROJECT_DIR$/../learning-go" />
+      <root url="file://$PROJECT_DIR$/../go-recipes-master" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../logging" />
+      <root url="file://$PROJECT_DIR$/../gokit" />
+      <root url="file://$PROJECT_DIR$/../exercises" />
+      <root url="file://$PROJECT_DIR$/../github.com" />
+      <root url="file://$PROJECT_DIR$/../golang.org" />
+      <root url="file://$PROJECT_DIR$/../code_examples" />
+      <root url="file://$PROJECT_DIR$/../neil" />
+      <root url="file://$PROJECT_DIR$/../goblueprints" />
+      <root url="file://$PROJECT_DIR$/../learning-go" />
+      <root url="file://$PROJECT_DIR$/../go-recipes-master" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
