@@ -15,10 +15,10 @@ func main() {
 	fmt.Scanln(&tip)
 
 	// Now we calculate the tip
-	fmt.Println("The tip is")
+	fmt.Println("\nThe tip is")
 	var totaltip float32 = (bill * tip / 100)
 	var billtotal float32 = (totaltip + bill)
-	fmt.Printf("%.2f \n", +totaltip)
-	fmt.Println("The total bill is")
-	fmt.Printf("%.2f \n", +billtotal)
+	fmt.Printf("£%.2f \n", +totaltip)
+	fmt.Println("\nThe total bill is")
+	fmt.Printf("£%.2f \n", +billtotal)
 }
