@@ -26,4 +26,5 @@ func main() {
 	color.Set(color.FgRed)
 	fmt.Printf("£%.2f \n", +billtotal)
 	color.Set(color.FgWhite)
+	fmt.Println("\n")
 }
