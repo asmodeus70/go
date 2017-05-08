@@ -3,9 +3,15 @@ package main
 import (
 	"fmt"
 	"github.com/fatih/color"
+	"os"
+	"os/exec"
 )
 
 func main() {
+	// First we clear the screen
+	c := exec.Command("clear")
+	c.Stdout = os.Stdout
+	c.Run()
 	// Ask user for the bill amount
 	fmt.Println("How much is the bill?")
 	var bill float32
