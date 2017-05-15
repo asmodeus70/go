@@ -10,7 +10,9 @@
       <root url="file://$PROJECT_DIR$/../neil" />
       <root url="file://$PROJECT_DIR$/../goblueprints" />
       <root url="file://$PROJECT_DIR$/../chat" />
+      <root url="file://$PROJECT_DIR$/../ec2-snapper" />
       <root url="file://$PROJECT_DIR$/../learning-go" />
+      <root url="file://$PROJECT_DIR$/../.git" />
       <root url="file://$PROJECT_DIR$/../go-recipes-master" />
     </CLASSES>
     <SOURCES>
@@ -23,7 +25,9 @@
       <root url="file://$PROJECT_DIR$/../neil" />
       <root url="file://$PROJECT_DIR$/../goblueprints" />
       <root url="file://$PROJECT_DIR$/../chat" />
+      <root url="file://$PROJECT_DIR$/../ec2-snapper" />
       <root url="file://$PROJECT_DIR$/../learning-go" />
+      <root url="file://$PROJECT_DIR$/../.git" />
       <root url="file://$PROJECT_DIR$/../go-recipes-master" />
     </SOURCES>
     <excluded>

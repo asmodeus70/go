@@ -12,10 +12,12 @@ func main() {
 	c := exec.Command("clear")
 	c.Stdout = os.Stdout
 	c.Run()
+
 	// Ask user for the bill amount
 	fmt.Println("How much is the bill?")
 	var bill float32
 	fmt.Scanln(&bill)
+
 	// Ask the user how much of a tip is required
 	fmt.Println("How big is the tip gong to be?")
 	var tip float32
