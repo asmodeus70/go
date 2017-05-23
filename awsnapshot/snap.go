@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"math"
+	"os"
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws"
@@ -49,8 +50,13 @@ var (
 
 func main() {
 
-	if *tags != "" {
-		tags = tags
+	flag.Var(&tags, "tags", "Select EBS volumes using these tag keys e.g. 'Daily-Backup'. Tag values should be == 'true'")
+	flag.Parse()
+
+	if len(tags) == 0 {
+		fmt.Println("You must specify at least one tag")
+		flag.PrintDefaults()
+		os.Exit(1)
 	}
 
 	config := aws.NewConfig()
